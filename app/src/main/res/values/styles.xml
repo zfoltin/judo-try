@@ -1,11 +1,22 @@
 <resources>
 
   <!-- Base application theme. -->
-  <style name="AppTheme" parent="Theme.Judo.Light.DarkActionBar">
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
     <!-- Customize your theme here. -->
     <item name="colorPrimary">@color/colorPrimary</item>
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     <item name="colorAccent">@color/colorAccent</item>
+
+    <!--<item name="actionBarTheme">@style/ThemeOverlay.AppTheme.ActionBar</item>-->
+    <!--<item name="android:textColorHint">@color/judo_black_38</item>-->
+    <!--<item name="android:textColorSecondary">@color/judo_black_54</item>-->
+    <!--<item name="buttonLabel">@string/pay</item>-->
+    <!--<item name="buttonStyle">@style/Widget.Judo.Button</item>-->
+    <!--<item name="colorControlNormal">@color/judo_black_16</item>-->
+    <!--<item name="colorButtonNormal">@color/judo_teal</item>-->
+    <item name="overlayBackground">@color/judo_white_90</item>
+    <!--<item name="secureServerMessageShown">false</item>-->
+    <!--<item name="cameraIcon">@drawable/ic_photo_camera_black</item>-->
   </style>
 
 </resources>
